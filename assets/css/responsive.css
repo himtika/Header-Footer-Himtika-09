@@ -67,6 +67,11 @@
         height: 75px !important;
     }
 
+    .main-header .nav-outer .main-menu,
+	.sticky-header{
+		display: none !important;
+	}
+
     .main-header .nav-outer .logo-outer img {
         width: 180px !important;
         height: auto !important;
@@ -168,9 +173,7 @@
     .tentang-kami {
         display: flex; justify-content: start;
     }
-    .media-hp-footer {
-        display: flex; justify-content: center; 
-    }
+    
 
     .authorized-brand {
 		margin-top: -10px;

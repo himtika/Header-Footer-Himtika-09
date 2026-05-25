@@ -39,6 +39,8 @@ a {
 }
 ul,li{
 	list-style:none;
+	padding:0px;
+	margin:0px;	
 }
 
 ::-webkit-scrollbar {
@@ -59,12 +61,6 @@ ul,li{
 	max-width:1200px;
 	padding:0px 15px;
 	margin:0 auto;
-}
-
-ul,li{
-	list-style:none;
-	padding:0px;
-	margin:0px;	
 }
 
 /* Posisi navbar kanan dan kiri */
@@ -821,7 +817,7 @@ ul,li{
 	font-size: 16px;
 	font-family: "Figtree";
 	margin-left: 20px;
-	text-transform: capitalize;
+	text-transform: none;
 }
 
 .mobile-menu .navigation li.current > a,
@@ -1451,9 +1447,12 @@ ul,li{
 	.tentang-kami {
 		display: flex; justify-content: center; 
 	}
+	.media-hp-footer {
+        display: flex; justify-content: start; 
+    }
 	
 	.align-right-lg { 
-		display: flex; justify-content: center; 
+		display: flex; justify-content: start; 
 	}
 
 	.group-title {
@@ -1565,6 +1564,7 @@ ul,li{
 		
 		.align-center-lg { display: flex; justify-content: center; }
 		.align-right-lg { display: flex; justify-content: end; }
+		.media-hp-footer { display: flex; justify-content: center; }
 		
 		.footer-bottom { padding-top: 32px; gap: 10px; }
 		.mini-logo { width: 40px; height: 40px; }
